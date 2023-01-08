@@ -18,7 +18,7 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Wick
     'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh", "dondo, Frank', 
     'Birrell, Augustine', 'Black Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
 
-function Start() {
+function start() {
     // 1. filter
     const fifteen = inventors.filter(function(inventor) {
         if (inventor.year >= 1500 && inventor.year <= 1599) return true; // retornar true significa mantener dicho elemento

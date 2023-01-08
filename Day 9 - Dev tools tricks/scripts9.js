@@ -3,7 +3,7 @@ const dogs = [
     {name: "hugo", age: 8}
 ]
 
-function MakeGreen() {
+function makeGreen() {
     const p = document.querySelector("p");
     p.style.color = "#BADA55";
     p.style.fontSize = "50px";
